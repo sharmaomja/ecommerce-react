@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "npm-run-all -p json-server start",
-    "json-server": "json-server --watch data.json --port 8080",
+    "json-server": "npx json-server --watch data.json --port 8080",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
